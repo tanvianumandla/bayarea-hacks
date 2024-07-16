@@ -9,17 +9,17 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
       <div className="flex justify-center">
         <div className="flex flex-col gap-20 items-center px-10 pt-0 pb-20 max-w-4xl w-full font-bold">
           <h2 className="bg-gradient-to-br from-slate-300 to-slate-400 bg-clip-text text-transparent text-center leading-7 font-normal">
-            Milpitas Hacks is the very first hackathon at Milpitas High School.
-            Milpitas High School has long been the home of avid programmers,
+            Bay Hacks is the very first hackathon at Milpitas High School.
+             High School has long been the home of avid programmers,
             from web developers to backend engineers. We want to spread our
             passion to the rest of the Bay Area through Milpitas Hacks, a
             hackathon for Bay Area high schoolers that emphasizes the inclusion
             of women in STEM. This commitment of ours is reflected in our all-female
             marketing team as well as the Women In STEM focus for our
             Code for Cause Track. This year, we are aiming to have around 200
-            participants at Milpitas Hacks, which we can only do through your
+            participants at Bay Hacks, which we can only do through your
             support! Help us make the first hackathon at Milpitas High School
-            since its founding 55 years ago a success and support women in STEM
+            since its founding 55 years ago a success and support  in STEM
             by sponsoring us.
             <br />
             <br />
