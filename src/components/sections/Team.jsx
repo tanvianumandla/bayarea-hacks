@@ -1,16 +1,16 @@
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
-import vasistaPng from "../../assets/vasista.png";
+import nishanthPng from "../../assets/nishanth.png";
 import jeremiahPng from "../../assets/jeremiah.png";
 import pranayPng from "../../assets/pranay.png";
 import aahanPng from "../../assets/aahan.png";
-import jerryPng from "../../assets/jerry.jpg";
-import deveshPng from "../../assets/devesh.png";
+import JustinPng from "../../assets/Justin.png";
+import oliverPng from "../../assets/oliver.png";
 import harishPng from "../../assets/harish.png";
 import vedPng from "../../assets/ved.png";
-import oliverPng from "../../assets/oliver.png";
+import tanviPng from "../../assets/tanvi.png";
 import logoPng from "../../assets/Milpitas Hacks Logo.png";
 import linkedInPng from "../../assets/linkedin.png";
-
+import ritvikPng from "../../assets/ritvik.png";
 const Team = () => {
   return (
     <div className="flex flex-col items-center py-20 px-5  bg-gradient-to-t from-gray-950 to-gray-900">
@@ -31,7 +31,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Founder and Executive Lead
+              Executive Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -43,7 +43,7 @@ const Team = () => {
                   src={aahanPng}
                   width="125"
                   height="125"
-                  alt="Picture of Aahan Shah, Founder and Exective Lead of Milpitas Hacks"
+                  alt="Picture of Aahan Shah, Exective Lead of Milpitas Hacks"
                 />
               </CardItem>
               <CardItem
@@ -77,7 +77,7 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-white text-center"
             >
-              Vasista Ramachandruni
+              Ritvik Rustagi
             </CardItem>
             <CardItem
               as="p"
@@ -92,18 +92,18 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img
-                  src={vasistaPng}
+                  src={ritvikPng}
                   width="125"
                   className="rounded-full"
                   height="125"
-                  alt="Picture of Vasista Ramachandruni, Executive Lead at Milpitas Hacks"
+                  alt="Picture of Ritvik Rustagi, Executive Lead at Bay Hacks"
                 />
               </CardItem>
               <CardItem
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
               >
-                <a href="https://www.linkedin.com/in/vasistar/" target="_blank">
+                <a href="https://www.linkedin.com/in/ritvik-638590210/" target="_blank">
                   <img
                     src={linkedInPng}
                     className="rounded-sm"
@@ -130,7 +130,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Founder and Director
+              Executive Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -170,14 +170,14 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-white text-center"
             >
-              Oliver Ma
+              Tanvi Anumandla
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Frontend Tech Lead
+              Director of Operations
             </CardItem>
             <div className="">
               <CardItem
@@ -185,11 +185,11 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img
-                  src={oliverPng}
+                  src={tanviPng}
                   className="rounded-full aspect-square object-cover"
                   width="125"
                   height="125"
-                  alt="Picture of Oliver Ma, Frontend Tech Lead of Milpitas Hacks"
+                  alt="Picture of Tanvi Anumandla, Frontend Tech Lead of Milpitas Hacks"
                 />
               </CardItem>
               <CardItem
@@ -197,7 +197,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/oliver-ma-1337702bb/"
+                  href="https://www.linkedin.com/in/tanvianumandla/"
                   target="_blank"
                 >
                   <img
@@ -271,14 +271,14 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-white text-center"
             >
-              Devesh Mamidi
+              Oliver Ma
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Tech
+              Frontend Tech Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -286,9 +286,9 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img
-                  src={deveshPng}
+                  src={oliverPng}
                   width="125"
-                  className="rounded-full"
+                  className="rounded-full aspect-square object-cover"
                   height="125"
                   alt="Picture of Devesh Mamidi, Tech at Milpitas Hacks"
                 />
@@ -298,7 +298,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/devesh-mamidi-678998231/"
+                  href="https://www.linkedin.com/in/oliver-ma-milpitas/"
                   target="_blank"
                 >
                   <img
@@ -319,7 +319,7 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-white text-center"
             >
-              Harish Manukonda
+              Nishanth Koushik
             </CardItem>
             <CardItem
               as="p"
@@ -334,9 +334,10 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img
-                  src={harishPng}
+                  src={nishanthPng}
                   width="125"
                   height="125"
+                  className="rounded-full aspect-square object-cover"
                   alt="Picture of Harish Manukonda, finances at Milpitas Hacks"
                 />
               </CardItem>
@@ -345,7 +346,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/vinayamanivenkatasaiharish-manukonda-8bbb02274/"
+                  href="https://www.linkedin.com/in/nishanth-koushik-327a972a8/"
                   target="_blank"
                 >
                   <img
@@ -413,7 +414,7 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-white text-center"
             >
-              Jerry Yong
+              Justin Shen
             </CardItem>
             <CardItem
               as="p"
@@ -428,7 +429,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img
-                  src={jerryPng}
+                  src={JustinPng}
                   className="rounded-full w-[125px] h-[125px] object-cover"
                   width="125"
                   height="125"
@@ -440,7 +441,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/jy-jerry-yong"
+                  href="https://www.linkedin.com/in/justin-shen-7493221a3/"
                   target="_blank"
                 >
                   <img
