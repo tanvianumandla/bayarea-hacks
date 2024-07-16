@@ -49,10 +49,10 @@ const FAQ = () => {
       <>
         More questions? Reach out to us via{" "}
         <a
-          href="mailto: team@milpitashacks.com"
+          href="mailto: bay.hacks24@gmail.com"
           className="text-blue-200 hover:underline"
         >
-          team@milpitashacks.com
+          bay.hacks24@gmail.com
         </a>
       </>,
     ],
