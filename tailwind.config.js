@@ -12,8 +12,9 @@ export default {
     extend: {
       colors: {
         primary: "rgb(253,249,244)",
-        light: "rgb(158, 111, 50)",
-        secondary: "rgb(38, 45, 56)",
+        light: "rgb(182, 147, 101)",
+        secondary: "rgb(0,0,0)",
+        red: "rgb(187, 52, 47)",
       },
       animation: {
         first: "moveVertical 30s ease infinite",
