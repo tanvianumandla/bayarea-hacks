@@ -6,12 +6,12 @@ const ProspectusFAQ = () => {
   const [faqs, setFaqs] = useState([
     [
       "Why should you sponsor Bay Hacks?",
-      "Bay Hacks is one of the first partnership high school hackathon of the Bay Area. Regent Hacks X Milpitas Hacks.  Being one of the first sponsors for Bay Hacks will set up your company for upcoming hackathons and provide valuable recruiting and advertising opportunities.",
+      "Bay Hacks is one of the first partnership high school hackathons in the Bay Area, a collaboration between Regent Hacks and Milpitas Hacks. Being one of the first sponsors for Bay Hacks will set your company up for future hackathons and provide valuable recruiting and advertising opportunities.",
       false,
     ],
     [
       "How will funds be used?",
-      "Any funds received through donations and sponsorships will be used to provide food and snacks for all participants, judges, and organizers, pay for prizes, pay for operational costs, and merchandise.",
+      "Any funds received through donations and sponsorships will be used to provide food and snacks for all participants, judges, and organizers, pay for prizes, cover operational costs, and purchase merchandise.",
       false,
     ],
     [
@@ -21,7 +21,7 @@ const ProspectusFAQ = () => {
     ],
     [
       "How can you help?",
-      "Sponsoring Bay Hacks is the best way to help. Other than that, sending mentors, judges, or providing free trials of pro versions of products for hackers to use also helps tremendously!",
+      "Sponsoring Bay Hacks is the best way to help. Additionally, sending mentors, judges, or providing free trials of professional versions of products for hackers to use also helps tremendously!",
       false,
     ],
     [

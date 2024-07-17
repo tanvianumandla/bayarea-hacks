@@ -6,43 +6,53 @@ const FAQ = () => {
   const faqs = [
     [
       "Who can participate?",
-      "Bay Hacks is open to high school students in all grades 9-12, no prior coding experience is required! If you are under 9th grade but believe your abilities can compete, we welcome you.",
+      "Bay Hacks is open to high school students in all grades 9-12. No prior coding experience is required! If you are under 9th grade but believe your abilities can compete, we welcome you.",
+      false,
     ],
     [
       "Does this cost money?",
-      "No! The Hackathon is totally free to attend, and all food (lunch, dinner, and snacks) will be provided.",
+      "No! The hackathon is totally free to attend, and all food (lunch, dinner, and snacks) will be provided.",
+      false,
     ],
     [
       "Can I participate in a team?",
-      "Absolutely! Teams can be up to 4 people; we encourage hackers to team up, but you can also go solo.  If you don't have a team, don't worry! We will have a team formation session at the beginning of the event.",
+      "Absolutely! Teams can be up to 4 people. We encourage hackers to team up, but you can also go solo. If you don't have a team, don't worry! We will have a team formation session at the beginning of the event.",
+      false,
     ],
     [
       "What is Bay Hacks?",
-      "A Hackathon a weekend long event where students (in teams of 1-4) compete for prizes, attend workshops, and most importantly, build meaningful projects.",
+      "A hackathon is a weekend-long event where students (in teams of 1-4) compete for prizes, attend workshops, and most importantly, build meaningful projects.",
+      false,
     ],
     [
       "What should I bring?",
-      "Bring a laptop, a charger, a water bottle, and anything you might need. Food will be provided but you may bring your own as well, especially if you have food allergies.",
+      "Bring a laptop, a charger, a water bottle, and anything else you might need. Food will be provided, but you may bring your own as well, especially if you have food allergies.",
+      false,
     ],
     [
       "What if I have dietary restrictions?",
-      "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accommodate food options for you. However, we do not guarantee that these accommodations will be made for you, so it is recommended you bring your own food if it is a serious health concern.",
+      "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accommodate food options for you. However, we do not guarantee that these accommodations will be made, so it is recommended you bring your own food if it is a serious health concern.",
+      false,
     ],
     [
       "Where do I check in?",
-      "At the ICC in Milpitas. (More information will be sent via email)",
+      "At the ICC in Milpitas. (More information will be sent via email.)",
+      false,
     ],
     [
       "Do I have to develop anything specific?",
-      "Nope! You can develop whatever you want, but for track specific prizes, make sure to build a project related to the track.",
+      "Nope! You can develop whatever you want, but for track-specific prizes, make sure to build a project related to the track.",
+      false,
     ],
     [
       "I don't know anything about coding. Can I still participate?",
-      "Yes! There will be several resources and workshops for those who don't know how to code to attend. Additionally, you can ask volunteers and event organizers for help.",
+      "Yes! There will be several resources and workshops for those who don't know how to code. Additionally, you can ask volunteers and event organizers for help.",
+      false,
     ],
     [
       "Can I arrive late?",
-      "Yes but please make sure to inform organizers and have your team arrive before you so that we can save your spot and you don't get replaced by people on the waitlist.",
+      "Yes, but please make sure to inform organizers and have your team arrive before you so that we can save your spot and you don't get replaced by people on the waitlist.",
+      false,
     ],
     [
       "I have another question...",
