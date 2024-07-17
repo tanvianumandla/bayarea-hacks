@@ -17,30 +17,30 @@ import poorviPng from "../../assets/poorvi.png";
 
 const Team = () => {
   return (
-    <div className="flex flex-col items-center py-20 px-5  bg-gradient-to-t from-gray-950 to-gray-900">
+    <div className="flex flex-col items-center py-20 px-5  bg-gradient-to-t from-primary to-primary">
       <div className="pb-20">
-        <h1 className="text-6xl md:text-7xl font-bold ">Team</h1>
+        <h1 className="text-6xl md:text-7xl font-bold text-black ">Team</h1>
       </div>
       <div className="flex gap-5 justify-center flex-col lg:flex-row max-w-5xl w-full flex-wrap">
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
-              className="text-md font-bold text-white text-center shadow-2xl"
+              className="text-md font-bold text-black text-center shadow-2xl"
             >
               Aahan Shah
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-black"
             >
               Executive Lead
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black"
               >
                 <img
                   className="rounded-full"
@@ -52,7 +52,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black flex w-full justify-center"
               >
                 <a
                   href="https://www.linkedin.com/in/aahan-shah/"
@@ -72,28 +72,28 @@ const Team = () => {
         </CardContainer>
         <CardContainer className="inter-var w-full">
           <CardBody
-            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center"
+            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center"
             flex
             flex-col
             items-center
           >
             <CardItem
               translateZ="50"
-              className="text-md font-bold text-white text-center"
+              className="text-md font-bold text-black text-center"
             >
               Ritvik Rustagi
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
             >
               Executive Lead
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black"
               >
                 <img
                   src={ritvikPng}
@@ -105,7 +105,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black w-full flex justify-center"
               >
                 <a href="https://www.linkedin.com/in/ritvik-638590210/" target="_blank">
                   <img
@@ -122,24 +122,24 @@ const Team = () => {
         </CardContainer>
 
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
-              className="text-md font-bold text-white text-center"
+              className="text-md font-bold text-black text-center"
             >
               Pranay Jain
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
             >
               Executive Lead
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black"
               >
                 <img
                   src={pranayPng}
@@ -150,7 +150,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black w-full flex justify-center"
               >
                 <a
                   href="https://www.linkedin.com/in/pranay-jain-59563223a/"
@@ -169,24 +169,24 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
-              className="text-md font-bold text-white text-center"
+              className="text-md font-bold text-black text-center"
             >
               Tanvi Anumandla
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
             >
               Director of Operations
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black"
               >
                 <img
                   src={tanviPng}
@@ -198,7 +198,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black w-full flex justify-center"
               >
                 <a
                   href="https://www.linkedin.com/in/tanvianumandla/"
@@ -217,27 +217,27 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
-              className="text-md font-bold text-white text-center"
+              className="text-md font-bold text-black text-center"
             >
-              Jeremiah de Guzman
+              Justin Shen
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
             >
-              Backend Tech Lead
+              Director of Operations
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black"
               >
                 <img
-                  src={jeremiahPng}
+                  src={JustinPng}
                   className="rounded-full aspect-square object-cover"
                   width="125"
                   height="125"
@@ -246,10 +246,10 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black w-full flex justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/jeremiah-de-guzman-02b8002ba/"
+                  href="https://www.linkedin.com/in/justin-shen-7493221a3/"
                   target="_blank"
                 >
                   <img
@@ -266,31 +266,31 @@ const Team = () => {
         </CardContainer>
         <CardContainer className="inter-var w-full">
           <CardBody
-            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center"
+            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center"
             flex
             flex-col
             items-center
           >
             <CardItem
               translateZ="50"
-              className="text-md font-bold text-white text-center"
+              className="text-md font-bold text-black text-center"
             >
-              Oliver Ma
+              Nishanth Koushik
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
             >
-              Frontend Tech Lead
+              Director of Technology
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black"
               >
                 <img
-                  src={oliverPng}
+                  src={nishanthPng}
                   width="125"
                   className="rounded-full aspect-square object-cover"
                   height="125"
@@ -299,55 +299,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
-              >
-                <a
-                  href="https://www.linkedin.com/in/oliver-ma-milpitas/"
-                  target="_blank"
-                >
-                  <img
-                    src={linkedInPng}
-                    className="rounded-sm"
-                    width="25"
-                    height="25"
-                    alt="LinkedIn Logo"
-                  />
-                </a>
-              </CardItem>
-            </div>
-          </CardBody>
-        </CardContainer>
-        <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
-            <CardItem
-              translateZ="50"
-              className="text-md font-bold text-white text-center"
-            >
-              Nishanth Koushik
-            </CardItem>
-            <CardItem
-              as="p"
-              translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
-            >
-              Finance Lead
-            </CardItem>
-            <div className="">
-              <CardItem
-                translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
-              >
-                <img
-                  src={nishanthPng}
-                  width="125"
-                  height="125"
-                  className="rounded-full aspect-square object-cover"
-                  alt="Picture of Harish Manukonda, finances at Milpitas Hacks"
-                />
-              </CardItem>
-              <CardItem
-                translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black w-full flex justify-center"
               >
                 <a
                   href="https://www.linkedin.com/in/nishanth-koushik-327a972a8/"
@@ -366,24 +318,25 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
-              className="text-md font-bold text-white text-center"
+              className="text-md font-bold text-black text-center"
             >
+              
               Poorvi Vijayananda
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
             >
               Marketing Lead
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black"
               >
                 <img
                   src={poorviPng}
@@ -395,7 +348,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black flex w-full justify-center"
               >
                 <a
                   href="https://www.linkedin.com/in/ved-vyas-4721392ab/"
@@ -414,72 +367,28 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
-              className="text-md font-bold text-white text-center"
+              className="text-md font-bold text-black text-center"
             >
-              Justin Shen
-            </CardItem>
-            <CardItem
-              as="p"
-              translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
-            >
-              Sponsors Lead 
-            </CardItem>
-            <div className="">
-              <CardItem
-                translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
-              >
-                <img
-                  src={JustinPng}
-                  className="rounded-full w-[125px] h-[125px] object-cover"
-                  width="125"
-                  height="125"
-                  alt="Picture of Jerry Yong, sponsors at Milpitas Hacks"
-                />
-              </CardItem>
-              <CardItem
-                translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
-              >
-                <a
-                  href="https://www.linkedin.com/in/justin-shen-7493221a3/"
-                  target="_blank"
-                >
-                  <img
-                    src={linkedInPng}
-                    className="rounded-sm"
-                    width="25"
-                    height="25"
-                    alt="LinkedIn Logo"
-                  />
-                </a>
-              </CardItem>
-            </div>
-          </CardBody>
-        </CardContainer>
-        <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
-            <CardItem
-              translateZ="50"
-              className="text-md font-bold text-white text-center"
-            >
+             
+            
+             
+            
               Devesh Mamidi
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
             >
               Tech
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black"
               >
                 <img
                   src={deveshPng}
@@ -491,10 +400,10 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
+                className="py-2 rounded-xl text-xs font-normal dark:text-black flex w-full justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/justin-shen-7493221a3/"
+                  href="https://www.linkedin.com/in/devesh-mamidi-678998231/"
                   target="_blank"
                 >
                   <img

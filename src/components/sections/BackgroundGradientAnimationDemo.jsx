@@ -5,7 +5,7 @@ import { BackgroundGradientAnimation } from "../ui/background-gradient-animation
 import { ArrowRight } from "lucide-react";
 
 export function BackgroundGradientAnimationDemo() {
-  const DATE_OF_EVENT = new Date(2024, 9, 2, 8, 30);
+  const DATE_OF_EVENT = new Date(2024, 8, 2, 8, 30);
 
   const getFormattedTime = () => {
     let time = DATE_OF_EVENT.getTime() - new Date().getTime();
@@ -40,7 +40,7 @@ export function BackgroundGradientAnimationDemo() {
   return (
     <BackgroundGradientAnimation>
       <div className="bg-gradient-to-t from-primary to-primary">
-        <div className=" h-screen absolute w-screen">
+        <div className="h-screen absolute w-screen">
           <div
             className="relative border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col 
           justify-center items-start"
@@ -63,28 +63,28 @@ export function BackgroundGradientAnimationDemo() {
               </div>
               <div className="grid grid-flow-col gap-10 text-center auto-cols-max">
                 <div className="flex flex-col">
-                  <span className="countdown font-mono text-5xl">
+                  <span className="countdown font-mono text-5xl text-black">
                     <span style={{ "--value": formattedTime.days }}></span>
                   </span>
-                  days
+                  <span className="text-black">days</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="countdown font-mono text-5xl">
+                  <span className="countdown font-mono text-5xl text-black">
                     <span style={{ "--value": formattedTime.hrs }}></span>
                   </span>
-                  hours
+                  <span className="text-black">hours</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="countdown font-mono text-5xl">
+                  <span className="countdown font-mono text-5xl text-black">
                     <span style={{ "--value": formattedTime.min }}></span>
                   </span>
-                  min
+                  <span className="text-black">min</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="countdown font-mono text-5xl">
+                  <span className="countdown font-mono text-5xl text-black">
                     <span style={{ "--value": formattedTime.sec }}></span>
                   </span>
-                  sec
+                  <span className="text-black">sec</span>
                 </div>
               </div>
               <a
@@ -94,7 +94,7 @@ export function BackgroundGradientAnimationDemo() {
               >
                 <Button
                   size="lg"
-                  className="h-16 bg-gradient-to-br from-secondary to-secondary"
+                  className="h-16 bg-gradient-to-br from-light to-light"
                 >
                   Register
                   <ArrowRight />

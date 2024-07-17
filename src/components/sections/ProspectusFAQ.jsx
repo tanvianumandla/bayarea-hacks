@@ -67,7 +67,7 @@ const ProspectusFAQ = () => {
       </div>
       {/* <Accordion variant="" className="backdrop-blur-lg flex flex-col py-5 px-10 bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg max-w-5xl w-full">
         {faqs.map((faq, i) => (
-          <AccordionItem key={i} aria-label={faq[0]} title={<span className="text-white">{faq[0]}</span>}>
+          <AccordionItem key={i} aria-label={faq[0]} title={<span className="text-black">{faq[0]}</span>}>
             {faq[1]}
           </AccordionItem>
         ))}
