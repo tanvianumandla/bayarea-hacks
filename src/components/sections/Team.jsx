@@ -11,6 +11,10 @@ import tanviPng from "../../assets/tanvi.png";
 import logoPng from "../../assets/Milpitas Hacks Logo.png";
 import linkedInPng from "../../assets/linkedin.png";
 import ritvikPng from "../../assets/ritvik.png";
+import deveshPng from "../../assets/devesh.png";
+import poorviPng from "../../assets/poorvi.png";
+
+
 const Team = () => {
   return (
     <div className="flex flex-col items-center py-20 px-5  bg-gradient-to-t from-gray-950 to-gray-900">
@@ -326,7 +330,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Finances
+              Finance Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -367,14 +371,14 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-white text-center"
             >
-              Ved Vyas
+              Poorvi Vijayananda
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Sponsors
+              Marketing Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -382,9 +386,10 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img
-                  src={vedPng}
+                  src={poorviPng}
                   width="125"
                   height="125"
+                  className="rounded-full aspect-square object-cover"
                   alt="Picture of Ved Vyas, sponsors at Milpitas Hacks"
                 />
               </CardItem>
@@ -421,7 +426,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Sponsors
+              Sponsors Lead 
             </CardItem>
             <div className="">
               <CardItem
@@ -456,8 +461,56 @@ const Team = () => {
             </div>
           </CardBody>
         </CardContainer>
+        <CardContainer className="inter-var w-full">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
+            <CardItem
+              translateZ="50"
+              className="text-md font-bold text-white text-center"
+            >
+              Devesh Mamidi
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="60"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+            >
+              Tech
+            </CardItem>
+            <div className="">
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                <img
+                  src={deveshPng}
+                  className="rounded-full w-[125px] h-[125px] object-cover"
+                  width="125"
+                  height="125"
+                  alt="Picture of Jerry Yong, sponsors at Milpitas Hacks"
+                />
+              </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
+              >
+                <a
+                  href="https://www.linkedin.com/in/justin-shen-7493221a3/"
+                  target="_blank"
+                >
+                  <img
+                    src={linkedInPng}
+                    className="rounded-sm"
+                    width="25"
+                    height="25"
+                    alt="LinkedIn Logo"
+                  />
+                </a>
+              </CardItem>
+            </div>
+          </CardBody>
+        </CardContainer>
       </div>
-    </div>
+      </div>
   );
 };
 

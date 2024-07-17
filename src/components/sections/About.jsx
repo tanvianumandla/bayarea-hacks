@@ -24,7 +24,7 @@ const About = () => {
             covered food for everyone!
           </h3>
         </div>
-        <div className="flex flex-col p-10 bg-gray-950/50 rounded-md w-full transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500">
+        <div className="flex flex-col p-10 primary rounded-md w-full transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500">
           <h2 className="font-bold text-3xl inline-flex gap-5 py-3"><Trophy size={35} />Prizes</h2>
           <h3 className="font-normal text-lg">{prizes} prizes, including overall and track-specific awards, worth over ${prizeAmt} in value!</h3>
         </div>

@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import logoPNG from "../assets/Milpitas Hacks Logo.png";
+import logoPNG from "../assets/bay hacks.png";
 import { Link, useLocation } from "react-router-dom";
 import { Context } from "../App";
 import { Menu } from "lucide-react";
@@ -26,7 +26,7 @@ const Nav = () => {
     <div className="flex justify-center fixed w-full z-50 bg-slate-950/50 backdrop-blur-lg">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
-          <img src={logoPNG} width={50} alt="Milpitas Hacks Logo"></img>
+          <img src={logoPNG} width={150} alt="Milpitas Hacks Logo"></img>
         </Link>
         <div
           className={`flex gap-5 ${

@@ -70,7 +70,8 @@ const Landing = ({
           >
             <Button
               size="lg"
-              className="h-16 bg-gradient-to-br from-white to-blue-300"
+              className="h-16 bg-gradient-to-br from-white to-white"
+            
             >
               Register
               <ArrowRight />
