@@ -5,8 +5,8 @@ import Accordion from "../ui/Accordion";
 const ProspectusFAQ = () => {
   const [faqs, setFaqs] = useState([
     [
-      "Why should you sponsor Milpitas Hacks?",
-      "Milpitas Hacks is the first high school hackathon of Milpitas High School in its 55 year history. Being one of the first sponsors for Milpitas Hacks will set up your company for upcoming hackathons and provide valuable recruiting and advertising opportunities.",
+      "Why should you sponsor Bay Hacks?",
+      "Bay Hacks is one of the first partnership high school hackathon of the Bay Area. Regent Hacks X Milpitas Hacks.  Being one of the first sponsors for Bay Hacks will set up your company for upcoming hackathons and provide valuable recruiting and advertising opportunities.",
       false,
     ],
     [
@@ -16,12 +16,12 @@ const ProspectusFAQ = () => {
     ],
     [
       "Are sponsorships tax deductible?",
-      "Yes. Milpitas Hacks is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit legally registered as The Hack Foundation. Our EIN: 81-2908499.",
+      "Yes. Bay Hacks is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit legally registered as The Hack Foundation. Our EIN: 81-2908499.",
       false,
     ],
     [
       "How can you help?",
-      "Sponsoring Milpitas Hacks is the best way to help. Other than that, sending mentors, judges, or providing free trials of pro versions of products for hackers to use also helps tremendously!",
+      "Sponsoring Bay Hacks is the best way to help. Other than that, sending mentors, judges, or providing free trials of pro versions of products for hackers to use also helps tremendously!",
       false,
     ],
     [
@@ -29,7 +29,7 @@ const ProspectusFAQ = () => {
       <>
         More questions? Reach out to us via{" "}
         <a
-          href="mailto: milpitashacks@gmail.com"
+          href="mailto: bay.hacks24@gmail.com"
           className="text-blue-200 hover:underline"
         >
           milpitashacks@gmail.com
