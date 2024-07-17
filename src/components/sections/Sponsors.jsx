@@ -9,13 +9,13 @@ import ahaIndianCuisineJpg from "../../assets/ahaindiancuisine.jpg";
 
 const Sponsors = () => {
   return (
-    <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900 pt-20 pb-40 pl-5 pr-5">
+    <div className="flex flex-col items-center bg-gradient-to-b from-primary to-primary pt-20 pb-40 pl-5 pr-5">
       <div className="pb-20">
-        <h1 className="text-6xl md:text-7xl font-bold">Sponsors</h1>
+        <h1 className="text-6xl md:text-7xl font-bold text-black">Sponsors</h1>
       </div>
 
       <div className="pb-10">
-        <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500">
+        <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-gray-500 to-gray-800">
           Silver
         </h2>
       </div>
@@ -62,9 +62,9 @@ const Sponsors = () => {
         </a>
       </div>
       <div className="pt-20">
-        <h1 className="text-2xl font-bold text-center">
+        <h1 className="text-2xl font-bold text-center text-black">
           Want to sponsor us?{" "}
-          <Link to="prospectus" className="text-blue-300 hover:underline">
+          <Link to="prospectus" className="text-red hover:underline">
             See our sponsors prospectus
           </Link>
         </h1>

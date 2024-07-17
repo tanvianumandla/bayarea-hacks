@@ -94,16 +94,16 @@ export const HoverEffect = () => {
                 />
               )}
             </AnimatePresence>
-            <div className=" rounded-2xl h-full w-full p-4 overflow-hidden bg-gradient-to-br from-slate-800 to-slate-800/[0.2] border border-transparent group-hover:border-slate-700 relative z-50">
+            <div className=" rounded-2xl h-full w-full p-4 overflow-hidden bg-gradient-to-br from-light to-light border border-transparent group-hover:border-slate-700 relative z-50">
               <div className="relative z-50">
                 <div className="p-4">
-                  <h4 className="text-lg text-zinc-100 font-bold tracking-wide mt-4 text-center flex items-center justify-center h-12">
+                  <h4 className="text-lg text-black font-bold tracking-wide mt-4 text-center flex items-center justify-center h-12">
                     {project.title}
                   </h4>
-                  <p className="mt-2 text-zinc-400 tracking-wide leading-relaxed text-sm text-center flex items-center justify-center h-11">
+                  <p className="mt-2 text-black tracking-wide leading-relaxed text-sm text-center flex items-center justify-center h-11">
                     {project.description}
                   </p>
-                  <div className="py-5 rounded-xl text-xs font-normal dark:text-white flex items-center justify-center">
+                  <div className="py-5 rounded-xl text-xs font-normal dark:text-black flex items-center justify-center">
                     <img
                       className="rounded-full aspect-square object-cover"
                       src={project.png}
@@ -112,7 +112,7 @@ export const HoverEffect = () => {
                       alt={project.title}
                     />
                   </div>
-                  <div className="pt-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center">
+                  <div className="pt-2 rounded-xl text-xs font-normal dark:text-black flex w-full justify-center">
                     <a href={project.link} target="_blank">
                       <img
                         src={linkedinPng}
