@@ -81,7 +81,7 @@ const Landing = ({
       </div>
       <div className="bg-primary">
         <h2 className="text-center leading-7 p-10 text-black">
-          Milpitas Hacks is fiscally sponsored by The Hack Foundation (d.b.a.
+          Bay Hacks is fiscally sponsored by The Hack Foundation (d.b.a.
           Hack Club), 501(c)(3), (EIN: 81-2908499).
         </h2>
       </div>
