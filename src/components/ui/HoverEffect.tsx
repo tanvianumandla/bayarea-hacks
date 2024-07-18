@@ -4,62 +4,55 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import linkedinPng from "../../assets/linkedin.png";
-import lakshPng from "../../assets/laksh.jpeg";
-import pavanPng from "../../assets/pavan.jpeg";
-import kevinPng from "../../assets/kevin.jpeg";
-import muraliPng from "../../assets/murali.png";
-import pradeepPng from "../../assets/pradeep.jpeg";
-import sandeepPng from "../../assets/sandeep.png";
-import sumitPng from "../../assets/sumit.png";
-import gaureshPng from "../../assets/gauresh.jpg";
-import blankPng from "../../assets/blank.jpeg";
+import blankPic from "../../assets/blankPic.jpeg";
+
 
 export const projects = [
   {
-    title: "Pavan Kumar",
-    description: "Senior Manager at Apple",
+    title: "TBD",
+    description: "-",
     link: "https://www.linkedin.com/in/pavanrvs/",
-    png: pavanPng,
+    png: blankPic,
   },
 
   {
-    title: "Kevin Macwan",
-    description: "Software Engineering Manager at Amazon",
+    title: "TBD",
+    description: "-",
     link: "https://www.linkedin.com/in/kevin-macwan-85a55165/",
-    png: kevinPng,
+    png: blankPic,
   },
 
   {
-    title: "Murali Ganji",
-    description: "Software Engineer at Meta",
+    title: "TBD",
+    description: "-",
     link: "https://www.linkedin.com/in/murali-ganji-81b85424/",
-    png: muraliPng,
+    png: blankPic,
   },
 
   {
-    title: "Pradeep Kumar",
-    description: "Software Development Engineer at Amazon",
+    title: "TBD",
+    description: "-",
     link: "https://www.linkedin.com/in/pkumar28/",
-    png: pradeepPng,
+    png: blankPic,
   },
 
   {
-    title: "Sumit Bhatnagar",
-    description: "VP of Software Engineering at JP Morgan Chase & Co.",
+    title: "TBD",
+    description: "-",
     link: "https://www.linkedin.com/in/sumitbhatnagar1411/",
-    png: sumitPng,
+    png: blankPic,
   },
 
   {
-    title: "Gauresh Rane",
-    description: "Engineer Manager at WhatsApp",
+    title: "TBD",
+    description: "-",
     link: "https://www.linkedin.com/in/gauresh-rane-55772913/",
-    png: gaureshPng,
+    png: blankPic,
   },
-  { title: "Sandeep Shah",
-    description: "Sr. Director, Corporate Quality at Netapp",
+  { title: "TBD",
+    description: "-",
     link: "https://linkedin.com/in/sandeep-shah-10082a1/",
-    png: sandeepPng,
+    png: blankPic,
   },
   // ...rest of the projects
 ];

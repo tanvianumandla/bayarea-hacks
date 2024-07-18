@@ -1,7 +1,6 @@
 import { BackgroundGradient } from "../ui/background-gradient";
 import linkedInPng from "../../assets/linkedin.png";
-import raviPng from "../../assets/ravi.jpg";
-import nikunjPng from "../../assets/nikunj.jpeg";
+import blankPic from "../../assets/blankPic.jpeg";
 
 const Speakers = () => {
   return (
@@ -13,8 +12,8 @@ const Speakers = () => {
       <div className="flex flex-col lg:flex-row items-center pb-20 px-5 gap-10">
         <BackgroundGradient className="rounded-[22px] w-80 p-4 sm:p-10 bg-light">
           <img
-            src={raviPng}
-            alt="Ravi Annavajjhala, CEO of Kinara, Inc."
+            src={blankPic}
+            alt="TBD"
             height="400"
             width="400"
             className="object-contain rounded-full"
@@ -23,7 +22,7 @@ const Speakers = () => {
             TBD
           </p>
 
-          <p className="text-sm text-center text-black">CEO of Kinara, Inc.</p>
+          <p className="text-sm text-center text-black">N/A</p>
           <p className="text-sm text-center text-black">
             N/A
           </p>
@@ -32,7 +31,7 @@ const Speakers = () => {
         <BackgroundGradient className="rounded-[22px] w-80 h-max p-4 sm:p-10 bg-light">
           <img
             src={nikunjPng}
-            alt="Nikunj Mehta, Founder and CEO of Falkonry"
+            alt="TBD"
             height="400"
             width="400"
             className="object-contain rounded-full"
