@@ -32,9 +32,11 @@ export function BackgroundGradientAnimationDemo() {
   const [formattedTime, setFormattedTime] = useState(getFormattedTime());
 
   useEffect(() => {
-    setInterval(() => {
-      setFormattedTime(getFormattedTime);
+    const interval = setInterval(() => {
+      setFormattedTime(getFormattedTime());
     }, 1000);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -42,14 +44,21 @@ export function BackgroundGradientAnimationDemo() {
       <div className="bg-gradient-to-t from-primary to-primary">
         <div className="h-screen absolute w-screen">
           <div
-            className="relative border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col 
+            className="relative border-none px-4 h-full overflow-visible rounded-2xl flex flex-col 
           justify-center items-start"
           >
-            <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
-              <div className="flex-col">
-                <h1 className="text-5xl md:text-8xl sm:text-6xl lg:text-9xl font-bold text-center relative bg-gradient-to-b from-secondary to-secondary inline-block text-transparent bg-clip-text">
-                  Bay Hacks
-                </h1>
+            <div className="w-full flex flex-col items-center justify-center overflow-visible rounded-md z-20">
+              <div className="flex-col text-center">
+                <div>
+                  <h1 className="text-5xl md:text-8xl sm:text-6xl lg:text-9xl font-bold relative bg-gradient-to-b from-secondary to-secondary inline-block text-transparent bg-clip-text">
+                    Bay Hacks
+                  </h1>
+                </div>
+                <div className="mt-12"> {/* Updated the margin here */}
+                  <h2 className="text-sm md:text-xl sm:text-3xl lg:text-5xl font-semibold relative bg-gradient-to-b from-secondary to-secondary block text-transparent bg-clip-text leading-normal">
+                    Milpitas Hacks X Regent Hacks
+                  </h2>
+                </div>
                 <div className="md:text-xl text-lg lg:text-2xl text-gray-900 flex justify-center gap-3 pt-5 pb-10">
                   <h2 className="">September 2, 2024</h2>
                   <a
@@ -107,3 +116,5 @@ export function BackgroundGradientAnimationDemo() {
     </BackgroundGradientAnimation>
   );
 }
+
+
