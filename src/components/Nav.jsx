@@ -26,7 +26,7 @@ const Nav = () => {
     <div className="flex justify-center fixed w-full z-50 bg-slate-950/50 backdrop-blur-lg">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
-          <img src={logoPNG} width={150} alt="Milpitas Hacks Logo"></img>
+          <img src={logoPNG} width={100} alt="Bay Hacks Logo"></img>
         </Link>
         <div
           className={`flex gap-5 ${
