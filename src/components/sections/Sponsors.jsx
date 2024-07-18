@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import hackClubLogoPng from "../../assets/hack-club-logo.png";
-import onePasswordPng from "../../assets/1PasswordLogo.png";
-import echo3dPng from "../../assets/echo3d.png";
+import aopsLogoPng from "../../assets/aopsLogoPng.png";
+import xyz from "../../assets/xyz.png";
 import desmosPng from "../../assets/desmos.png";
 import interviewcakePng from "../../assets/interviewcake.png";
 import milpitasPng from "../../assets/milpitas.png";
@@ -44,11 +44,11 @@ const Sponsors = () => {
         <a href="https://hackclub.com/" target="_blank">
           <img src={hackClubLogoPng} className="w-80" alt="Hack Club Logo" />
         </a>
-        <a href="https://1password.com/" target="_blank">
-          <img src={onePasswordPng} className="w-80" alt="1Password Logo" />
+        <a href="https://artofproblemsolving.com/" target="_blank">
+          <img src={aopsLogoPng} className="w-80" alt="AoPS Logo" />
         </a>
-        <a href="https://www.echo3d.com/" target="_blank">
-          <img src={echo3dPng} className="w-80" alt="echo3D Logo" />
+        <a href="https://gen.xyz/" target="_blank">
+          <img src={xyz} className="w-80" alt=".xyz domains Logo" />
         </a>
         <a href="https://www.desmos.com/" target="_blank">
           <img src={desmosPng} className="w-80" alt="Desmos Logo" />
