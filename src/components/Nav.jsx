@@ -26,7 +26,7 @@ const Nav = () => {
     <div className="flex justify-center fixed w-full z-50 bg-slate-950/50 backdrop-blur-lg">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
-          <img src={logoPNG} width={100} alt="Bay Hacks Logo"></img>
+          <img src={logoPNG} width={50} alt="Bay Hacks Logo"></img>
         </Link>
         <div
           className={`flex gap-5 ${
@@ -136,7 +136,7 @@ const Nav = () => {
           </a>
         </div>
         <div className="flex gap-5 items-center">
-          <a target="_blank" href="https://discord.gg/yxfarheY">
+          <a target="_blank" href="https://discord.gg/qStx66nS">
             <svg
               width="30px"
               height="30px"
@@ -155,7 +155,7 @@ const Nav = () => {
               </g>
             </svg>
           </a>
-          <a target="_blank" href="https://www.instagram.com/milpitashacks">
+          <a target="_blank" href="https://www.instagram.com/bay_hacks?igsh=NTc4MTIwNjQ2YQ%3D%3D">
             <svg width="30px" height="30px">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

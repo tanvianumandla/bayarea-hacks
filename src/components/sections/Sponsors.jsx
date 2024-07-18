@@ -64,7 +64,7 @@ const Sponsors = () => {
       <div className="pt-20">
         <h1 className="text-2xl font-bold text-center text-black">
           Want to sponsor us?{" "}
-          <Link to="prospectus" className="text-red hover:underline">
+          <Link to="https://regenthacks.com/docs/Bay%20Hacks%20Sponsorship%20Prospectus.pdf" className="text-red hover:underline">
             See our sponsors prospectus
           </Link>
         </h1>

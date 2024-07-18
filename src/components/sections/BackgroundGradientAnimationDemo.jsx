@@ -54,7 +54,7 @@ export function BackgroundGradientAnimationDemo() {
                     Bay Hacks
                   </h1>
                 </div>
-                <div className="mt-4">
+                <div className="mt-12"> {/* Updated the margin here */}
                   <h2 className="text-sm md:text-xl sm:text-3xl lg:text-5xl font-semibold relative bg-gradient-to-b from-secondary to-secondary block text-transparent bg-clip-text leading-normal">
                     Milpitas Hacks X Regent Hacks
                   </h2>
@@ -116,4 +116,5 @@ export function BackgroundGradientAnimationDemo() {
     </BackgroundGradientAnimation>
   );
 }
+
 
