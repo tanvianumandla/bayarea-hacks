@@ -89,7 +89,7 @@ export function BackgroundGradientAnimationDemo() {
               </div>
               <a
                 target="_blank"
-                href="https://tripetto.app/run/O7E32KMH7T"
+                href="https://tripetto.app/run/RYUUS6U41V"
                 className="z-20 pt-14"
               >
                 <Button
