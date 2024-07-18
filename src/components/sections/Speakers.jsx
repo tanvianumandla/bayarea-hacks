@@ -30,7 +30,7 @@ const Speakers = () => {
 
         <BackgroundGradient className="rounded-[22px] w-80 h-max p-4 sm:p-10 bg-light">
           <img
-            src={nikunjPng}
+            src={blankPic}
             alt="TBD"
             height="400"
             width="400"

@@ -5,8 +5,6 @@ import pranayPng from "../../assets/pranay.png";
 import aahanPng from "../../assets/aahan.png";
 import JustinPng from "../../assets/Justin.png";
 import oliverPng from "../../assets/oliver.png";
-import harishPng from "../../assets/harish.png";
-import vedPng from "../../assets/ved.png";
 import tanviPng from "../../assets/tanvi.png";
 import logoPng from "../../assets/Milpitas Hacks Logo.png";
 import linkedInPng from "../../assets/linkedin.png";
