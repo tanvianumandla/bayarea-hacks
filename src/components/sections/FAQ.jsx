@@ -17,7 +17,7 @@ const FAQ = () => {
     ],
     [
       "What is Bay Hacks?",
-      "A Hackathon a weekend long event where students (in teams of 1-4) compete for prizes, attend workshops, and most importantly, build meaningful projects.",
+      "Bay Hacks is a one day long event where students (in teams of 1-4) compete for prizes, attend workshops, and most importantly, build meaningful projects.",
     ],
     [
       "What should I bring?",
@@ -29,7 +29,7 @@ const FAQ = () => {
     ],
     [
       "Where do I check in?",
-      "At the ICC in Milpitas. (More information will be sent via email)",
+      "At the Indian Community Center in Milpitas. (More information will be sent via email)",
     ],
     [
       "Do I have to develop anything specific?",

@@ -20,13 +20,12 @@ const Speakers = () => {
             className="object-contain rounded-full"
           />
           <p className="text-base text-center sm:text-xl mt-4 mb-2 text-transparent bg-clip-text bg-gradient-to-tr from-black to-black">
-            Ravi Annavajjhala
+            TBD
           </p>
 
           <p className="text-sm text-center text-black">CEO of Kinara, Inc.</p>
           <p className="text-sm text-center text-black">
-            MBA in Finance and Marketing at the Wharton School of the University
-            of Pennsylvania
+            N/A
           </p>
         </BackgroundGradient>
 
@@ -39,16 +38,16 @@ const Speakers = () => {
             className="object-contain rounded-full"
           />
           <p className="text-base text-center sm:text-xl mt-4 mb-2 text-transparent bg-clip-text bg-gradient-to-tr from-black to-black">
-            Nikunj Mehta
+            TBD
           </p>
 
           <p className="text-sm text-center text-black">
-            Founder and CEO of Falkonry
+            N/A
           </p>
           <p className="text-sm text-center text-black">
-            Co-Founder of Industry 4.0 Club
+            N/A
             <br />
-            PhD in Computer Science at the University of Southern California
+            N/A
           </p>
         </BackgroundGradient>
       </div>
