@@ -11,47 +11,47 @@ export const projects = [
   {
     title: "TBD",
     description: "-",
-    link: "https://www.linkedin.com/in/pavanrvs/",
+    link: "",
     png: blankPic,
   },
 
   {
     title: "TBD",
     description: "-",
-    link: "https://www.linkedin.com/in/kevin-macwan-85a55165/",
+    link: "",
     png: blankPic,
   },
 
   {
     title: "TBD",
     description: "-",
-    link: "https://www.linkedin.com/in/murali-ganji-81b85424/",
+    link: "",
     png: blankPic,
   },
 
   {
     title: "TBD",
     description: "-",
-    link: "https://www.linkedin.com/in/pkumar28/",
+    link: "",
     png: blankPic,
   },
 
   {
     title: "TBD",
     description: "-",
-    link: "https://www.linkedin.com/in/sumitbhatnagar1411/",
+    link: "",
     png: blankPic,
   },
 
   {
     title: "TBD",
     description: "-",
-    link: "https://www.linkedin.com/in/gauresh-rane-55772913/",
+    link: "",
     png: blankPic,
   },
   { title: "TBD",
     description: "-",
-    link: "https://linkedin.com/in/sandeep-shah-10082a1/",
+    link: "",
     png: blankPic,
   },
   // ...rest of the projects
