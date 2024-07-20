@@ -22,8 +22,12 @@ const Speakers = () => {
             TBD
           </p>
 
-          <p className="text-sm text-center text-black">N/A</p>
           <p className="text-sm text-center text-black">
+            N/A
+          </p>
+          <p className="text-sm text-center text-black">
+            N/A
+            <br />
             N/A
           </p>
         </BackgroundGradient>
