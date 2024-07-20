@@ -29,7 +29,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-gray-300"
             >
               Executive Lead
             </CardItem>
@@ -82,7 +82,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-gray-300"
             >
               Executive Lead
             </CardItem>
@@ -128,7 +128,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-gray-300"
             >
               Executive Lead
             </CardItem>
@@ -175,9 +175,9 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-gray-300"
             >
-              Director of Management 
+              Director of Operations 
             </CardItem>
             <div className="">
               <CardItem
@@ -223,7 +223,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-gray-300"
             >
               Director of Operations
             </CardItem>
@@ -271,7 +271,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-gray-300"
             >
               Director of Tech
             </CardItem>
@@ -319,7 +319,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-gray-300"
             >
               Marketing Lead
             </CardItem>
@@ -367,7 +367,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+              className="text-black text-sm max-w-sm mt dark:text-gray-300"
             >
               Tech
             </CardItem>
