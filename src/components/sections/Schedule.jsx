@@ -12,27 +12,27 @@ const Schedule = () => {
             <h2 className="text-lg text-right text-black">Check-in</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">08:30 AM</h2>
+            <h2 className="text-lg text-nowrap text-black">08:00 AM</h2>
             <h2 className="text-lg text-right text-black">Opening Ceremony</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">09:00 AM</h2>
+            <h2 className="text-lg text-nowrap text-black">08:30 AM</h2>
             <h2 className="text-lg text-right text-black">Hacking Begins</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className="text-lg text-nowrap text-black">09:30 AM</h2>
-            <h2 className="text-lg text-right text-black">Beginner Frontend Workshop</h2>
-          </div>
-          <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">10:15 AM</h2>
-            <h2 className="text-lg text-right text-black">Intermediate React Workshop</h2>
+            <h2 className="text-lg text-right text-black">Workshop(Info Released Soon)</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className="text-lg text-nowrap text-black">10:30 AM</h2>
-            <h2 className="text-lg text-right text-black">Expertise AI/ML Workshop</h2>
+            <h2 className="text-lg text-right text-black">Workshop(Info Released Soon)</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">12:30 PM</h2>
+            <h2 className="text-lg text-nowrap text-black">11:30 AM</h2>
+            <h2 className="text-lg text-right text-black">Workshop(Info Released Soon)</h2>
+          </div>
+          <div className="flex py-3 gap-3 justify-between">
+            <h2 className="text-lg text-nowrap text-black">12:00 PM</h2>
             <h2 className="text-lg text-right text-black">Lunch</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
@@ -40,23 +40,19 @@ const Schedule = () => {
             <h2 className="text-lg text-right text-black">Keynote Speaker #1</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">04:30 PM</h2>
-            <h2 className="text-lg text-right text-black">Keynote Speaker #2</h2>
-          </div>
-          <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">06:30 PM</h2>
+            <h2 className="text-lg text-nowrap text-black">06:00 PM</h2>
             <h2 className="text-lg text-right text-black">Dinner</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">07:30 PM</h2>
+            <h2 className="text-lg text-nowrap text-black">06:30 PM</h2>
             <h2 className="text-lg text-right text-black">Coding Ends</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">08:00 PM</h2>
+            <h2 className="text-lg text-nowrap text-black">07:00 PM</h2>
             <h2 className="text-lg text-right text-black">Judging Begins</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">09:00 PM</h2>
+            <h2 className="text-lg text-nowrap text-black">08:15 PM</h2>
             <h2 className="text-lg text-right text-black">Awards and Closing Ceremony</h2>
           </div>
         </div>
