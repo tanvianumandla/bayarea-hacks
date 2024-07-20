@@ -85,6 +85,13 @@ const Nav = () => {
             Sponsors
           </Link>
           <Link
+            to="mentors"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/metnors")}
+          >
+            Mentors
+          </Link>
+          <Link
             to="team"
             className="hover:text-blue-300 transition-all"
             onClick={() => ctx.scrollToSection("/team")}

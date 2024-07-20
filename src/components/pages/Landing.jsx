@@ -4,6 +4,7 @@ import FAQ from "../sections/FAQ";
 import { BackgroundGradientAnimationDemo } from "../sections/BackgroundGradientAnimationDemo";
 import Schedule from "../sections/Schedule";
 import Sponsors from "../sections/Sponsors";
+import Mentors from "../sections/Mentors";
 import Team from "../sections/Team";
 import Thanks from "../sections/Thanks";
 import Tracks from "../sections/Tracks";
@@ -19,6 +20,7 @@ const Landing = ({
   sponsorsRef,
   aboutRef,
   scheduleRef,
+  mentorsRef,
   teamRef,
   faqRef,
   thanksRef,
@@ -50,6 +52,9 @@ const Landing = ({
       </div>
       <div ref={sponsorsRef}>
         <Sponsors />
+      </div>
+      <div ref={mentorsRef}>
+        <Mentors />
       </div>
       <div ref={teamRef}>
         <Team />
