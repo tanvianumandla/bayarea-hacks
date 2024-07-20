@@ -87,7 +87,7 @@ const Nav = () => {
           <Link
             to="mentors"
             className="hover:text-blue-300 transition-all"
-            onClick={() => ctx.scrollToSection("/metnors")}
+            onClick={() => ctx.scrollToSection("/mentors")}
           >
             Mentors
           </Link>
