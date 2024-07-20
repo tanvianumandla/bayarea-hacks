@@ -84,7 +84,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
+              className="text-black text-sm max-w-sm mt dark:text-black"
             >
               Executive Lead
             </CardItem>
@@ -130,7 +130,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
+              className="text-black text-sm max-w-sm mt dark:text-blackk"
             >
               Executive Lead
             </CardItem>
@@ -177,7 +177,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
+              className="text-black text-sm max-w-sm mt dark:text-black"
             >
               Director of Operations
             </CardItem>
@@ -225,7 +225,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
+              className="text-black text-sm max-w-sm mt dark:text-black"
             >
               Director of Operations
             </CardItem>
@@ -278,7 +278,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
+              className="text-black text-sm max-w-sm mt dark:text-black"
             >
               Director of Technology
             </CardItem>
@@ -327,7 +327,7 @@ const Team = () => {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
+              className="text-black text-sm max-w-sm mt dark:text-black"
             >
               Marketing Lead
             </CardItem>
@@ -370,16 +370,12 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-black text-center"
             >
-             
-            
-             
-            
               Devesh Mamidi
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-black"
+              className="text-black text-sm max-w-sm mt dark:text-black"
             >
               Tech
             </CardItem>

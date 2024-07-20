@@ -5,7 +5,7 @@ const FAQ = () => {
   const faqs = [
     [
       "Who can participate?",
-      "Bay Hacks is open to high school students in all grades 9-12, no prior coding experience is required! If you've graduated from high school, you cannot participate, but you can help out by volunteering for the day.",
+      "Bay Hacks is open to high school students in all grades 9-12, no prior coding experience is required! However, if you are below 9th grade and believe your skills can compete, we welcome you.",
     ],
     [
       "Does this cost money?",
