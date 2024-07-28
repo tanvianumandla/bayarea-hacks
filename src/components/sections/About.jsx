@@ -26,7 +26,8 @@ const About = () => {
         </div>
         <div className="flex flex-col p-10 bg-red rounded-md w-full transition-all shadow-lg hover:shadow-xl">
           <h2 className="font-bold text-3xl inline-flex gap-5 py-3 text-black"><Trophy size={35} />Prizes</h2>
-          <h3 className="font-normal text-lg text-black">{prizes} prizes, Over  Over $4,000 worth of cash prizes and internship opportunities provided!</h3>
+          <h3 className="font-normal text-lg text-black"> 19 prizes, Over $4,000 worth of cash prizes and internship opportunities provided!
+!</h3>
         </div>
       </div>
     </div>
