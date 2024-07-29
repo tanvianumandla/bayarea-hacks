@@ -143,7 +143,7 @@ const Nav = () => {
           </a>
         </div>
         <div className="flex gap-5 items-center">
-          <a target="_blank" href="https://discord.gg/qStx66nS">
+          <a target="_blank" href="https://discord.gg/RBV26FSUnc">
             <svg
               width="30px"
               height="30px"
