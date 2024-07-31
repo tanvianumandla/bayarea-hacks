@@ -99,7 +99,8 @@ const Nav = () => {
             Team
           </Link>
           <a
-            href="https://hcb.hackclub.com/donations/start/milpitas-hacks-2-0-2-0"
+            href="https://hcb.hackclub.com/donations/start/milpitas-hacks-2-0
+"
             target="_blank"
             className="hover:text-blue-300 transition-all"
           >
@@ -135,7 +136,8 @@ const Nav = () => {
             FAQ
           </Link>
           <a
-            href="https://hcb.hackclub.com/donations/start/milpitas-hacks-2-0-2-0"
+            href="https://hcb.hackclub.com/donations/start/milpitas-hacks-2-0
+"
             target="_blank"
             className="hover:text-blue-300 transition-all"
           >
