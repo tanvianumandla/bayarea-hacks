@@ -5,21 +5,21 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import linkedinPng from "../../assets/linkedin.png";
 import blankPic from "../../assets/blankPic.jpeg";
-
-
+import NaveenPic from "../../assets/Naveen.png";
+import VenkatPic from "../../assets/Venkat.png";
 export const projects = [
   {
-    title: "TBD",
-    description: "-",
-    link: "",
-    png: blankPic,
+    title: "Naveen Krishnan",
+    description: "Solutions Architect at Microsoft",
+    link: "https://www.linkedin.com/in/navintkr/",
+    png: NaveenPic,
   },
 
   {
-    title: "TBD",
-    description: "-",
-    link: "",
-    png: blankPic,
+    title: "Venkat Challa",
+    description: "Software Engineer at Fictiv",
+    link: "https://www.linkedin.com/in/venkata-195681206/",
+    png: VenkatPic,
   },
 
   {
