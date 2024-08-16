@@ -7,6 +7,8 @@ import linkedinPng from "../../assets/linkedin.png";
 import blankPic from "../../assets/blankPic.jpeg";
 import NaveenPic from "../../assets/Naveen.png";
 import VenkatPic from "../../assets/Venkat.png";
+import RatanPic from "../../assets/Ratra.jpeg";
+import MandalPic from "../../assets/Mandal.jpg";
 export const projects = [
   {
     title: "Naveen Krishnan",
@@ -23,17 +25,17 @@ export const projects = [
   },
 
   {
-    title: "TBD",
+    title: "Karan Kumar Ratra",
     description: "-",
     link: "",
-    png: blankPic,
+    png: RatanPic,
   },
 
   {
-    title: "TBD",
-    description: "-",
-    link: "",
-    png: blankPic,
+    title: "Joydeb Mandal",
+    description: "Director Inspirage",
+    link: "https://www.linkedin.com/in/joydeb-mandal-b1664b9/",
+    png: MandalPic,
   },
 
   {
