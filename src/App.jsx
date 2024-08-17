@@ -7,7 +7,6 @@ import About from "./components/sections/About";
 import Schedule from "./components/sections/Schedule";
 import Tracks from "./components/sections/Tracks";
 import FAQ from "./components/sections/FAQ";
-import Mentors from "./components/sections/Mentors";
 import Team from "./components/sections/Team";
 import SideNav from "./components/SideNav";
 import { Route, useLocation, Routes } from "react-router-dom";
@@ -27,7 +26,6 @@ function App() {
   const aboutRef = useRef();
   const scheduleRef = useRef();
   const sponsorsRef = useRef();
-  const mentorsRef = useRef();
   const teamRef = useRef();
   const faqRef = useRef();
   const prospectusRef = useRef();
@@ -60,9 +58,8 @@ function App() {
       scrollByRef(faqRef);
     } else if (scrollTo === "/sponsors") {
       scrollByRef(sponsorsRef);
-    } else if (scrollTo === "/mentors") {
-      scrollByRef(mentorsRef);
-    } else if (scrollTo === "/team") {
+    } 
+    else if (scrollTo === "/team") {
       scrollByRef(teamRef);
     } else if (scrollTo === "/prospectus/mission") {
       scrollByRef(missionRef);
@@ -99,7 +96,6 @@ function App() {
                   aboutRef={aboutRef}
                   scheduleRef={scheduleRef}
                   teamRef={teamRef}
-                  mentorsRef={mentorsRef}
                   faqRef={faqRef}
                   sponsorsRef={sponsorsRef}
                   judgesRef={judgesRef}
