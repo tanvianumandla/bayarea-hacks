@@ -7,6 +7,7 @@ import acceptUPng from "../../assets/acceptU.png";
 import elitePng from "../../assets/Elite.png";
 import AoPSPng from "../../assets/AoPS.png";
 import NetAppPng from "../../assets/NetApp.png";
+import GongChapng from "../../assets/gongcha.png"
 
 const Sponsors = () => {
   return (
@@ -57,6 +58,10 @@ const Sponsors = () => {
         </a>
         <a href="https://acceptu.com/" target="_blank">
           <img src={acceptUPng} className="w-50 h-40" alt="Accept U Logo" 
+          style={{ marginTop: '-40px' }}/>
+        </a>
+        <a href="https://gong-cha-usa.com/" target="_blank">
+          <img src={GongChapng} className="w-50 h-40" alt="Gong Cha Logo" 
           style={{ marginTop: '-40px' }}/>
         </a>
       </div>
