@@ -8,6 +8,7 @@ import elitePng from "../../assets/Elite.png";
 import AoPSPng from "../../assets/AoPS.png";
 import NetAppPng from "../../assets/NetApp.png";
 import GongChapng from "../../assets/gongcha.png"
+import ewavePng from "../../assets/ewave.png";
 
 const Sponsors = () => {
   return (
@@ -39,6 +40,10 @@ const Sponsors = () => {
         </a>
         <a href="https://artofproblemsolving.com/" target="_blank">
           <img src={AoPSPng} className="w-54 h-44" alt="AoPS Logo"
+          style={{ marginTop: '20px' }}/>
+        </a>
+        <a href="https://www.ewave.hk/" target="_blank">
+          <img src={ewavePng} className="w-96 h-44 pb-8" alt="AoPS Logo"
           style={{ marginTop: '20px' }}/>
         </a>
       </div>
