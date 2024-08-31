@@ -133,10 +133,9 @@ const Team = () => {
               <CardItem translateZ={20} className="py-2 rounded-xl text-xs font-normal dark:text-black">
                 <img
                   src={JustinPng}
-                  width="125"
                   className="rounded-full"
-                  height="125"
                   alt="Justin Shen"
+                  style={{ width: '125px', height: '125px', objectFit: 'cover' }}
                 />
               </CardItem>
               <CardItem translateZ={20} className="py-2 rounded-xl text-xs font-normal dark:text-black flex justify-center">
@@ -307,7 +306,7 @@ const Team = () => {
                   alt="Poorvi Vijayananda"
                 />
               </CardItem>
-              <CardItem translateZ={20} className="py-2 rounded-xl text-xs font-normal dark:text-black flex justify-center">
+              <CardItem translateZ={20} className="py-2 rounded-xl text-xs font-normal dark:text-black flex justify-center pt-4">
                 <a href="https://www.linkedin.com/in/poorvi-vijayananda-5a764a213/" target="_blank">
                   <img
                     src={linkedInPng}

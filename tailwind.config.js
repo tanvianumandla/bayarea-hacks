@@ -58,6 +58,9 @@ export default {
           },
         },
       },
+      spacing: {
+        '76': '19rem'
+      }
     },
   },
 
