@@ -29,7 +29,7 @@ const FAQ = () => {
     ],
     [
       "Where do I check in?",
-      "At the Indian Community Center in Milpitas. (More information will be sent via email)",
+      "At the Prospect High School in Saratoga. (More information will be sent via email)",
     ],
     [
       "Do I have to develop anything specific?",
