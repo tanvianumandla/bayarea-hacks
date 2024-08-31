@@ -66,7 +66,7 @@ export function BackgroundGradientAnimationDemo() {
                     target="_blank"
                     className="hover:underline "
                   >
-                    @Hacker Dojo
+                    @Prospect High School
                   </a>
                 </div>
               </div>
