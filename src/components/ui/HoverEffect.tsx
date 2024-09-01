@@ -9,6 +9,7 @@ import NaveenPic from "../../assets/Naveen.png";
 import VenkatPic from "../../assets/Venkat.png";
 import RatanPic from "../../assets/Ratra.jpeg";
 import MandalPic from "../../assets/Mandal.jpg";
+import HarshPic from "../../assets/harsh.jpg";
 export const projects = [
   {
     title: "Naveen Krishnan",
@@ -39,10 +40,10 @@ export const projects = [
   },
 
   {
-    title: "TBD",
-    description: "-",
+    title: "Harsh Alkutkar",
+    description: "Software Engineer at Doordash ",
     link: "",
-    png: blankPic,
+    png: HarshPic,
   },
 
   {
