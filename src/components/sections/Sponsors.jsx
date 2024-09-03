@@ -34,11 +34,11 @@ const Sponsors = () => {
         <a href="https://www.axure.com/" target="_blank">
           <img src={axurePng} className="h-30" alt="Axure Logo"/>
         </a>
-        <a href="https://eliteprep.com/" target="_blank">
+        <a href="https://eliteprep.com/san-jose" target="_blank">
           <img src={elitePng} className="w-54 h-44" alt="Elite Logo"
           style={{ marginTop: '20px' }}/>
         </a>
-        <a href="https://artofproblemsolving.com/" target="_blank">
+        <a href="https://fremont.aopsacademy.org/" target="_blank">
           <img src={AoPSPng} className="w-54 h-44" alt="AoPS Logo"
           style={{ marginTop: '20px' }}/>
         </a>
