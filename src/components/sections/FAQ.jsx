@@ -29,7 +29,7 @@ const FAQ = () => {
     ],
     [
       "Where do I check in?",
-      "At the Prospect High School in Saratoga. (More information will be sent via email)",
+      "At West Valley Branch Library in San Jose. Address: 1243 San Tomas Aquino Rd, San Jose, CA 95117",
     ],
     [
       "Do I have to develop anything specific?",
