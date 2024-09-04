@@ -16,6 +16,10 @@ const Schedule = () => {
             <h2 className="text-lg text-right text-black">Opening Ceremony</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
+            <h2 className="text-lg text-nowrap text-black">09:45 AM</h2>
+            <h2 className="text-lg text-right text-black"> Keynote Speaker: Professor Gilplin</h2>
+          </div>
+          <div className="flex py-3 gap-3 justify-between">
             <h2 className="text-lg text-nowrap text-black">10:00 AM</h2>
             <h2 className="text-lg text-right text-black">Hacking Begins</h2>
           </div>
@@ -40,7 +44,7 @@ const Schedule = () => {
             <h2 className="text-lg text-right text-black">Coding Ends</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
-            <h2 className="text-lg text-nowrap text-black">06:15 PM</h2>
+            <h2 className="text-lg text-nowrap text-black">06:00 PM</h2>
             <h2 className="text-lg text-right text-black">Dinner</h2>
           </div>
   
