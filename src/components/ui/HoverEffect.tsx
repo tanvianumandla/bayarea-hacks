@@ -10,6 +10,10 @@ import VenkatPic from "../../assets/Venkat.png";
 import RatanPic from "../../assets/Ratra.jpeg";
 import MandalPic from "../../assets/Mandal.jpg";
 import HarshPic from "../../assets/harsh.jpg";
+import Anjanapic from "../../assets/Anjana.png";
+import Padmapic from "../../assets/Padma.png";
+
+
 export const projects = [
   {
     title: "Naveen Krishnan",
@@ -47,15 +51,15 @@ export const projects = [
   },
 
   {
-    title: "TBD",
-    description: "-",
+    title: "Anjana Manian",
+    description: "CEO at DIYA Research",
     link: "",
-    png: blankPic,
+    png: Anjanapic,
   },
-  { title: "TBD",
-    description: "-",
+  { title: "Padmapriya Parthasarathy",
+    description: "Senior Principal Engineer at Oracle & COO at DIYA Research",
     link: "",
-    png: blankPic,
+    png: Padmapic,
   },
   // ...rest of the projects
 ];
