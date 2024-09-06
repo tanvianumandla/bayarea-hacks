@@ -9,7 +9,7 @@ import linkedInPng from "../../assets/linkedin.png";
 import deveshPng from "../../assets/devesh.png";
 import poorviPng from "../../assets/poorvi.png";
 import aaravPng from "../../assets/aarav.png";
-import aarnaPng from "../../assets/blankPic.jpeg"; // Assuming Aarna's image is not provided yet
+import aarnaPng from "../../assets/aarna.png"; 
 
 const Team = () => {
   return (
