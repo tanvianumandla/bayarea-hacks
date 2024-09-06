@@ -40,6 +40,10 @@ const Schedule = () => {
             <h2 className="text-lg text-right text-black">Lunch</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
+            <h2 className="text-lg text-nowrap text-black">03:00 PM</h2>
+            <h2 className="text-lg text-right text-black">Chess Simul with NM Pranav Sairam</h2>
+          </div>
+          <div className="flex py-3 gap-3 justify-between">
             <h2 className="text-lg text-nowrap text-black">06:00 PM</h2>
             <h2 className="text-lg text-right text-black">Coding Ends</h2>
           </div>
