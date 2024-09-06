@@ -1,6 +1,7 @@
 import { BackgroundGradient } from "../ui/background-gradient";
 import linkedInPng from "../../assets/linkedin.png";
 import blankPic from "../../assets/blankPic.jpeg";
+import LPic from "../../assets/LPic.png";
 
 const Speakers = () => {
   return (
