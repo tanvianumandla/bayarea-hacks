@@ -295,7 +295,7 @@ const Team = () => {
               Pranay Jain
             </CardItem>
             <CardItem as="p" translateZ="60" className="text-black text-sm max-w-sm mt dark:text-black">
-              Auxiliary
+              Finance Lead
             </CardItem>
             <div className="mt-4 flex flex-col items-center">
               <CardItem translateZ={20} className="py-2 rounded-xl text-xs font-normal dark:text-black">

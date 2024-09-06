@@ -9,6 +9,13 @@ import NaveenPic from "../../assets/Naveen.png";
 import VenkatPic from "../../assets/Venkat.png";
 import RatanPic from "../../assets/Ratra.jpeg";
 import MandalPic from "../../assets/Mandal.jpg";
+import HarshPic from "../../assets/harsh.jpg";
+import Anjanapic from "../../assets/Anjana.png";
+import Padmapic from "../../assets/Padma.png";
+import NehaPng from "../../assets/neha.png";
+import SenanPng from "../../assets/senan.png";
+import SaeedPng from "../../assets/saeed.png";
+
 export const projects = [
   {
     title: "Naveen Krishnan",
@@ -26,8 +33,8 @@ export const projects = [
 
   {
     title: "Karan Kumar Ratra",
-    description: "-",
-    link: "",
+    description: "Senior Software Engineer at Walmart",
+    link: "https://www.linkedin.com/in/karanratra07/",
     png: RatanPic,
   },
 
@@ -39,23 +46,38 @@ export const projects = [
   },
 
   {
-    title: "TBD",
-    description: "-",
-    link: "",
-    png: blankPic,
+    title: "Harsh Alkutkar",
+    description: "Software Engineer at Doordash ",
+    link: "https://www.linkedin.com/in/alkya/",
+    png: HarshPic,
   },
 
   {
-    title: "TBD",
-    description: "-",
-    link: "",
-    png: blankPic,
+    title: "Anjana Manian",
+    description: "CEO at DIYA Research",
+    link: "https://www.linkedin.com/in/anmanian/",
+    png: Anjanapic,
   },
-  { title: "TBD",
-    description: "-",
-    link: "",
-    png: blankPic,
+  { title: "Padmapriya Parthasarathy",
+    description: "Senior Principal Engineer at Oracle & COO at DIYA Research",
+    link: "https://www.linkedin.com/in/padmapriya-parthasarathy-2560584/",
+    png: Padmapic,
   },
+  { title: "Neha Surendranath",
+    description: "Technical Program Manager",
+    link: "https://www.linkedin.com/in/nsurendranath/",
+    png: NehaPng,
+  },
+  { title: "Senan Khawaja",
+    description: "Co-founder & CEO @ Kollegio",
+    link: "https://www.linkedin.com/in/senankhawaja/",
+    png: SenanPng,
+  },
+  { title: "Saeed Naeem",
+    description: "CTO @ Kollegio",
+    link: "https://www.linkedin.com/in/saeednaeem/",
+    png: SaeedPng,
+  }
   // ...rest of the projects
 ];
 
