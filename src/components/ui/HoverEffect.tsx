@@ -15,6 +15,8 @@ import Padmapic from "../../assets/Padma.png";
 import NehaPng from "../../assets/neha.png";
 import SenanPng from "../../assets/senan.png";
 import SaeedPng from "../../assets/saeed.png";
+=======
+
 
 export const projects = [
   {
@@ -49,6 +51,8 @@ export const projects = [
     title: "Harsh Alkutkar",
     description: "Software Engineer at Doordash ",
     link: "https://www.linkedin.com/in/alkya/",
+=======
+    link: "",
     png: HarshPic,
   },
 
@@ -72,6 +76,14 @@ export const projects = [
     description: "Co-founder & CEO @ Kollegio",
     link: "https://www.linkedin.com/in/senankhawaja/",
     png: SenanPng,
+=======
+    link: "",
+    png: Anjanapic,
+  },
+  { title: "Padmapriya Parthasarathy",
+    description: "Senior Principal Engineer at Oracle & COO at DIYA Research",
+    link: "",
+    png: Padmapic,
   },
   { title: "Saeed Naeem",
     description: "CTO @ Kollegio",

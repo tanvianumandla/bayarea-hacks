@@ -62,11 +62,11 @@ export function BackgroundGradientAnimationDemo() {
                 <div className="md:text-xl text-lg lg:text-2xl text-gray-900 flex justify-center gap-3 pt-5 pb-10">
                   <h2 className="">September 7, 2024</h2>
                   <a
-                    href="https://www.google.com/maps/place/Hacker+Dojo/@37.3962541,-122.0516494,17z/data=!3m1!4b1!4m6!3m5!1s0x808fb71274e6acd3:0x9f6f7e2c42ca6e51!8m2!3d37.3962541!4d-122.0490745!16s%2Fg%2F1hhj6y_33?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
+                    href="https://www.google.com/maps/dir//west+valley+branch+library/@37.304911,-121.9855946,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808fcab09ab9e569:0x5264bddc466b6c5f!2m2!1d-121.9793918!2d37.3023684?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     className="hover:underline "
                   >
-                    @Hacker Dojo
+                    @West Valley Branch Library
                   </a>
                 </div>
               </div>
