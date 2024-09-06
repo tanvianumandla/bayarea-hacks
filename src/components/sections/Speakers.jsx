@@ -1,7 +1,6 @@
 import { BackgroundGradient } from "../ui/background-gradient";
 import linkedInPng from "../../assets/linkedin.png";
 import blankPic from "../../assets/blankPic.jpeg";
-import LPic from "/Users/tanvi/Downloads/work/src/assets/Screenshot 2024-09-03 at 11.05.58 PM.png";
 
 const Speakers = () => {
   return (
