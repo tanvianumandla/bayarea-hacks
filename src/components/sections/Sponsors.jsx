@@ -12,6 +12,7 @@ import ewavePng from "../../assets/ewave.png";
 import Diyapng from "../../assets/Diya.png";
 import Nextpng from "../../assets/Nextstep.png";
 import witpng from "../../assets/WIT.png";
+import citpng from "../../assets/CIT.png";
 
 const Sponsors = () => {
   return (
@@ -27,6 +28,9 @@ const Sponsors = () => {
       <div className="pt-8 flex flex-wrap justify-center gap-10">
         <a href="https://www.netapp.com/" target="_blank">
           <img src={NetAppPng} className="h-30" alt="Net App Logo" />
+        </a>
+        <a href="" target="_blank">
+          <img src={citpng} className="w-54 h-44" alt="Cig Mangement Logo" style={{ marginTop: '20px' }} />
         </a>
       </div>
 
