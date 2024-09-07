@@ -22,7 +22,7 @@ const Tracks = () => {
             Health Care
           </h2>
           <h3 className="font-normal text-lg text-black">
-            To be announced...
+            To be announced....
           </h3>
         </div>
         <div className="flex flex-col gap-10 p-10 bg-red rounded-lg transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-black hover:shadow-black">
