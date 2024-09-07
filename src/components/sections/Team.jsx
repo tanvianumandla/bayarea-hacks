@@ -173,7 +173,7 @@ const Team = () => {
                 />
               </CardItem>
               <CardItem translateZ={20} className="py-2 rounded-xl text-xs font-normal dark:text-black flex justify-center">
-                <a href="https://www.linkedin.com/in/tanvi-anumandla-5397a0212/" target="_blank">
+                <a href="https://www.linkedin.com/in/tanvianumandla/" target="_blank">
                   <img
                     src={linkedInPng}
                     className="rounded-sm"
