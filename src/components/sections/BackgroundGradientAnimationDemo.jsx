@@ -5,7 +5,7 @@ import { BackgroundGradientAnimation } from "../ui/background-gradient-animation
 import { ArrowRight } from "lucide-react";
 
 export function BackgroundGradientAnimationDemo() {
-  const DATE_OF_EVENT = new Date(2024, 8, 7, 8, 0);
+  const DATE_OF_EVENT = new Date(2024, 8, 7, 9, 0);
 
   const getFormattedTime = () => {
     let time = DATE_OF_EVENT.getTime() - new Date().getTime();
