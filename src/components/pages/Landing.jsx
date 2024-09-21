@@ -9,6 +9,7 @@ import Thanks from "../sections/Thanks";
 import Tracks from "../sections/Tracks";
 import Judges from "../sections/Judges";
 import Speakers from "../sections/Speakers";
+import Volunteer from "../sections/Volunteer";
 import { Button } from "@nextui-org/button";
 import { Context } from "../../App";
 import { ArrowRight } from "lucide-react";
@@ -24,6 +25,7 @@ const Landing = ({
   thanksRef,
   judgesRef,
   speakersRef,
+  volunteerRef,
 }) => {
   return (
     <>
@@ -53,6 +55,9 @@ const Landing = ({
       </div>
       <div ref={teamRef}>
         <Team />
+      </div>
+      <div ref={volunteerRef}>
+        <Volunteer />
       </div>
       {/*<div ref={thanksRef}>
         <Thanks />

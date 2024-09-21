@@ -33,6 +33,7 @@ function App() {
   const prospectusFaqRef = useRef();
   const judgesRef = useRef();
   const speakersRef = useRef();
+  const volunteerRef = useRef();
 
   const [sideNavActive, setSideNavActive] = useState(false);
 
@@ -72,6 +73,9 @@ function App() {
     } else if (scrollTo == "/speakers") {
       scrollByRef(speakersRef);
     }
+    else if (scrollTo == "/volunteer") {
+      scrollByRef(volunteerRef);
+    }
   };
 
   useEffect(() => {
@@ -100,6 +104,7 @@ function App() {
                   sponsorsRef={sponsorsRef}
                   judgesRef={judgesRef}
                   speakersRef={speakersRef}
+                  volunteerRef={volunteerRef}
                 />
               }
             />
