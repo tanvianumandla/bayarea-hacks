@@ -46,6 +46,7 @@ const Nav = () => {
           <Link to="judges" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/judges")}>Judges</Link>
           <Link to="sponsors" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/sponsors")}>Sponsors</Link>
           <Link to="team" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/team")}>Team</Link>
+          <Link to="volunteer" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/volunteer")}>Volunteer</Link>
           <a href="https://hcb.hackclub.com/donations/start/milpitas-hacks-2-0" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-all">Donate</a>
         </div>
         <div

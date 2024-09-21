@@ -55,7 +55,7 @@ const Schedule = () => {
           <div className="flex py-3 gap-3 justify-between">
             <h2 className="text-lg text-nowrap text-black">07:00 PM</h2>
             <h2 className="text-lg text-right text-black">Judging Begins</h2>
-          </div>Volunteer
+          </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className="text-lg text-nowrap text-black">08:30 PM</h2>
             <h2 className="text-lg text-right text-black">Awards and Closing Ceremony</h2>

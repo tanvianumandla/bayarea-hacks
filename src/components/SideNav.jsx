@@ -81,6 +81,13 @@ const SideNav = () => {
             >
               Team
             </Link>
+            <Link
+              to="volunteer"
+              className="hover:text-blue-300 transition-all"
+              onClick={sideNavLinkClickHandler("/volunteer")}
+            >
+              Volunteer
+            </Link>
             <a
               href="https://hcb.hackclub.com/donations/start/milpitas-hacks-2-0
 "
