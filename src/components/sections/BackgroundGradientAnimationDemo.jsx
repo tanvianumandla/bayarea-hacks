@@ -41,14 +41,14 @@ export function BackgroundGradientAnimationDemo() {
               </div>
               <a
                 target="_blank"
-                href="https://tripetto.app/run/RYUUS6U41V"
+                href="https://bay-hacks24.devpost.com/"
                 className="z-20 pt-14"
               >
                 <Button
                   size="lg"
                   className="h-16 bg-gradient-to-br from-light to-light"
                 >
-                  Register
+                  Devpost
                   <ArrowRight />
                 </Button>
               </a>
